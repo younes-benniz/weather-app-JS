@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <main id="weather-app">
+        <div class="container">
+            <div class="row flex-column align-content-center">
+                <div class="col-lg-6 col-sm-12 text-center">
+                    <h1 class="text-white mt-4">Get weather Updates Now</h1>
+                    <form id="city-input">
+                        <div class="form-group p-4">
+                            <input class="form-control" type="text" id="city" placeholder="Search city">
+                        </div>
+                        <button type="submit" class="btn btn-success">Get Updates</button>
+                    </form>
+                </div>
+                <div class="weather-updates p-4">
+                    <div class="row align-content-start justify-content-center">
+                        <div class="card p-4">
+                            <div class="card-body text-center">
+                                <div id="cityName"></div>
+                                    <p id="temp"></p>
+                                     <!--    <span id="status"></span> -->
+                                    <div class="image">
+                                        <img id="image" src="">
+                                    </div>
+                                    <span id="description" class="text-secondary"></span>
+                                </div>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer p-4">
+        <div class="container text-center">
+            <small class="text-white">
+                Made with <span>❤</span> by <a href="https://github.com/younes-benniz" target="_blank">YOUNES BENNIZ</a>
+            </small>
+        </div>
+    </footer>
+
+
+    <script src="assets/jquery.js"></script>
+    <script src="assets/popper.min.js"></script>
+    <script src="assets/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

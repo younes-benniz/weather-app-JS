@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0a1f44;
+    min-height: 100vh;
+}
+.form-control {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#country {
+    font-size: 12px;
+    margin-left: 5px;
+}
+#temp {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+#cityName {
+    font-size: 30px;
+}
+#weather-app {
+    margin-bottom: 175px;
+}
+.card {
+    border-radius: 20px !important;
+    box-shadow: 5px 10px #c7c4c4;
+}
+.footer {
+    background-color: #000;
+}
